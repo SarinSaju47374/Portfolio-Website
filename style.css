@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color: transparent !important;
+     
+}
+.navbar-nav a{
+    /* color:white !important; */
+    color:white;
+}
+.navbar-nav a:hover{
+    color:gray;
+}
+.section1{
+    min-height:100vh;
+    background-image: url("/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media (mim-width:900px){
+    .navbar-nav a{
+        color:white !important;
+        background-color: gray;
+        width:100%;
+        padding: 24px;;
+    }
+}
